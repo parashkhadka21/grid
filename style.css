@@ -47,12 +47,12 @@ section{
 
 .parent{
     border: 2px solid black;
-    height: 900px;
+    height: 1200px;
     padding: 5px;
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
     grid-template-rows: repeat(3,1fr) ;
-    gap: 5px;
+    gap: 10px;
 }
 
 .box{
@@ -60,19 +60,42 @@ section{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    align-content: center;
+  
 
 }
 
+.box img{
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    height:200px ;
+    width: 400px;
+   
+}
+.avtr img{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.avtr{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.parent a{
+    padding: 0px;
+    /* border: 2px solid red; */
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    color:white;width: 100px;
+}
 footer{
     border: 2px solid black;
     height: 500px;
     background-color: black;
     color: white;
     border-radius: 10px;
-   
 
 }
 .fhead{
